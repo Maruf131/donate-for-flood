@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner part */
+
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),#000000), url("donation5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-text{
+    text-align: center;
+    padding-top: 150px;
+    color: #fff;
+}
+
+.banner-text h1{
+    font-size: 50px;
+}
+
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+    margin: 0px 70px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#800000 , #009933);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
